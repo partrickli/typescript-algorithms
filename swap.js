@@ -20,15 +20,4 @@ exports.swap = swap;
 // swap(t, 0, 0);
 // swap(t, 0, 1);
 // console.log(t);
-function shuffle(array) {
-    for (let j = array.length - 1; j > 0; j--) {
-        const element = array[j];
-        const i = Math.floor(Math.random() * j);
-        swap(array, i, j);
-    }
-}
-exports.shuffle = shuffle;
-const a = ['a', 'b', 'c', 'd', 'e'];
-shuffle(a);
-console.log(a);
-//# sourceMappingURL=algorithm.js.map
+//# sourceMappingURL=swap.js.map
