@@ -1,4 +1,4 @@
-function swap<Element>(a: Array<Element>, i: number, j: number) {
+export function swap<Element>(a: Array<Element>, i: number, j: number) {
   if (0 <= i && i < a.length && 0 <= j && j < a.length) {
     if (i !== j) {
       let temp = a[i];
@@ -12,7 +12,7 @@ function swap<Element>(a: Array<Element>, i: number, j: number) {
   }
 }
 
-let t: string[] = ['a', 'b', 'c'];
-swap(t, 0, 0);
-swap(t, 0, 1);
-console.log(t);
+// let t: string[] = ['a', 'b', 'c'];
+// swap(t, 0, 0);
+// swap(t, 0, 1);
+// console.log(t);
