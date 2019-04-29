@@ -1,5 +1,5 @@
 
-export function swap<Element>(a: Array<Element>, i: number, j: number) {
+export function swap<Element>(a: Array<Element>, i: number, j: number): void {
   if (0 <= i && i < a.length && 0 <= j && j < a.length) {
     if (i !== j) {
       let temp = a[i];
